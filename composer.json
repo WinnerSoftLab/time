@@ -1,0 +1,24 @@
+{
+  "name": "clickadu/time",
+  "description": "Time library",
+  "keywords": [
+    "time"
+  ],
+  "homepage": "https://github.com/WinnerSoftLab/time",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Clickadu",
+      "email": "anna@clickadu.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Clickadu\\Time\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.0|^7.0"
+  }
+}
